@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Road</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <link href="css/lightbox.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+          <a href="#" class="logo nav-link" onclick="myFunction()">My Road |</a>
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-menu" id="navegador">
+            <li class="nav-menu-item">
+              <a href="#destinos" class="nav-menu-link nav-link" onclick="myFunction()">Destinos</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#planificacion" class="nav-menu-link nav-link" onclick="myFunction()">Planificación</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#nosotros" class="nav-menu-link nav-link" onclick="myFunction()">Sobre nosotros</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#galeria" class="nav-menu-link nav-link" onclick="myFunction()">Galería</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="login.html" class="nav-menu-link nav-link nav-menu-link_active">Iniciar sesión</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <div class="container-cover">
+        <div class="cover">
+
+          <div class="text">
+            <h1>Crea un camino lleno de recuerdos</h1>
+            <p> Planea tu aventura con nosotros y atrévete a realizar el viaje que siempre deseaste.</p>
+            <input type="button" value="Comienza ahora">
+          </div>
+
+          <div class="img">
+            <img src="img/Travel4.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <main id="destinos">
+
+      <div class="container-destinos">
+        <div class="destinos">
+
+          <div class="title">
+            <h2>Destinos</h2>
+            <p>Conoce los destinos nacioneales y internacionales que tenemos para ofrecer</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-destinos-subtitle">
+          <div class="subtitle">
+            <h3>Popular dentro de Chile</h3>
+          </div>
+      </div>
+      
+      <div class="container-swiper">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/La-Serena.jpg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>La Serena</h4>
+                </div>
+                <div class="card-text">
+                  <p>Conoce las largas playas, El Faro y su arquitectura colonial y neocolonial, así como la Iglesia de San Francisco, de finales del renacimiento.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/San-Pedro.jpg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Atacama</h4>
+                </div>
+                <div class="card-text">
+                  <p>Conoce los espectaculares paisajes del que tiene para ofrecer el desierto de Atcama, como salares, volcanes, géiseres y aguas termales.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Valdivia.jpg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Valdivia</h4>
+                </div>
+                <div class="card-text">
+                  <p>Conoce la ciudad chilena famosa por su cerveza de artesanía alemana, por su universidad, sus actividades culturales y la Semana Valdiviana.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Puerto-Montt.jpg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Puerto Montt</h4>
+                </div>
+                <div class="card-text">
+                  <p>Está ubicada en el norte del seno de Reloncaví. Es el punto de inicio de la Carretera Austral y la puerta de entrada a la Patagonia norte y sur del país.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Valparaiso.png" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Valparaiso</h4>
+                </div>
+                <div class="card-text">
+                  <p>La ciudad es conocida por sus funiculares, las coloridas casas y La Sebastiana, la residencia antigua del poeta chileno Pablo Neruda con sus vistas del Pacífico.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Vina-del-Mar.jpg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Viña del Mar</h4>
+                </div>
+                <div class="card-text">
+                  <p>Conocida por sus jardines, playas y altos edificios, el Anfiteatro Quinta Vergara, el Palacio Vergara de comienzos del siglo XX y el Museo Artequin</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Punta-Arenas.jpeg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Punta Arenas</h4>
+                </div>
+                <div class="card-text">
+                  <p>Se ubica en el estrecho de Magallanes, que conecta los océanos Atlántico y Pacífico, y a menudo usada como base para las excursiones a la naturaleza de los alrededores y la Antártida.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Torres-del-Paine.jpg" alt="">
+              <div class="card-decription">
+                <div class="card-title">
+                  <h4>Torres del Paine</h4>
+                </div>
+                <div class="card-text">
+                  <p>El Parque Nacional Torres de Paine es el parque nacional más importante de Chile. Se encuentra cerca de Los Andes, en el externo sur de Chile, en la Región de Magallanes y la Antártica chilena.</p>
+                </div>
+                <div class="card-link">
+                  <a href="#">Conocer más</a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+        </div>
+      </div>
+
+      <div class="container-destinos-subtitle">
+        <div class="subtitle">
+          <h3>De Chile a Sudamérica</h3>
+        </div>
+    </div>
+    
+    <div class="container-swiper">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/Argentina.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Argentina</h4>
+              </div>
+              <div class="card-text">
+                <p>Conoce el país del tango, el futbol, el choripan, el mate y el dulce de leche, que cuenta además con montañas, picos nevados, lagos y bosques pintan el paisaje de la pequeña Suiza</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Peru.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Perú</h4>
+              </div>
+              <div class="card-text">
+                <p>Conoce la cuna de la gran Cultura Andina, una de las mayores civilizaciones de América. Es la tierra de los incas, chankas, tiahuanacos, waris, nazcas, mochicas.</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Bolivia.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Bolivia</h4>
+              </div>
+              <div class="card-text">
+                <p>Conoce El Titicaca, el lago navegable más alto del mundo. La isla de la Luna, lugar sagrado de los incas, cerca de la isla del Sol. Copacabana, pequeña ciudad situada a orillas del Titicaca.</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Paraguay.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Paraguay</h4>
+              </div>
+              <div class="card-text">
+                <p>Conocido por su diversidad de paisajes naturales, es el preferido para el turismo aventura. Serranías, arroyos y saltos presentan condiciones para el ciclismo, senderismo y otras estimulantes disciplinas.</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Brasil.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Brasil</h4>
+              </div>
+              <div class="card-text">
+                <p>De grandes ciudades y frondosas selvas, de caudalosos ríos y una costa atlántica famosa por sus playas. Es un país alegre y donde el turismo más tradicional se une al divertido, permitiendo disfurtar de su Sol y sus Gentes, de su ritmo y su sabor.</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Uruguay.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Uruguay</h4>
+              </div>
+              <div class="card-text">
+                <p>conocido por ser el país del mate, por ser el lugar donde se realizó el primer Mundial de Fútbol, y por tener el carnaval más largo del mundo. Cuenta mucha belleza natural y atractivos turísticos. Además es de los mejores países para viajar sola. </p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Ecuador.jpg" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Ecuador</h4>
+              </div>
+              <div class="card-text">
+                <p>Conocido como el país de los cuatro mundos ya que alberga la región Costa, Sierra, Amazonía e Insular o Galápagos. Las Provincias de la Costa acoge a varios turistas en sus playas junto con sus diversas actividades como el surf o parapentismo.</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Colombia.png" alt="">
+            <div class="card-decription">
+              <div class="card-title">
+                <h4>Colombia</h4>
+              </div>
+              <div class="card-text">
+                <p>Viajar por Colombia es compartir con una infinidad de culturas y descubrir paisajes inimaginables, pues solo el país más acogedor del mundo es capaz de reunir a varias comunidades y combinar opuestos como la nieve y el mar en un mismo lugar.</p>
+              </div>
+              <div class="card-link">
+                <a href="#">Conocer más</a>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+      </div>
+    </div>
+
+    </main>
+
+
+    <main id="planificacion">
+
+      <div class="container-planificacion">
+        <div class="planificacion">
+
+          <div class="title">
+            <h2>Planificación</h2>
+            <p>Contamos con la información que necesitar para planear cualquier detalle de tu viaje</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="cards-container-planificacion">
+        <div class="card">
+            <div class="card-img">
+                <img src="img/Renta2.png" alt="">
+            </div>
+            <h4>Renta de autos</h4>
+            <p>Elige las mejores y más confiables empresas de auto y siéntete seguro de iniciar tu viaje.</p>
+            <a href="#">Conoce más</a>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="img/Alojamiento2.png" alt="">
+            </div>
+            <h4>Alojamiento</h4>
+            <p>Conoce las distintas opciones de alojamiento que existen en los diferentes destinos ofrecidos</p>
+            <a href="#">Conoce más</a>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="img/Restaurantes2.png" alt="">
+            </div>
+            <h4>Restaurantes</h4>
+            <p>En caso de antojo de camino, nunca está de más saber cuales son las mejores paradas para comer.</p>
+            <a href="#">Conoce más</a>
+        </div>
+        <div class="card">
+          <div class="card-img">
+              <img src="img/Emergencia2.png" alt="">
+          </div>
+          <h4>Emergencias</h4>
+          <p>Conoce las distintas formas en que te puedes comunicar con los distintos servicios de emergencia de cada región.</p>
+          <a href="#">Conoce más</a>
+        </div>
+        <div class="card">
+          <div class="card-img">
+              <img src="img/Documentos2.png" alt="">
+          </div>
+          <h4>Documentación</h4>
+          <p>Ten a mano los documentos y requisitos que necesitas para viajar y expandir tus fronteras.</p>
+          <a href="#">Conoce más</a>
+        </div>
+        <div class="card">
+          <div class="card-img">
+              <img src="img/Covid2.png" alt="">
+          </div>
+          <h4>Covid-19</h4>
+          <p>Conoce las distintas restricciones y requisitos relacionados con el Covid-19.</p>
+          <a href="#">Conoce más</a>
+        </div>
+      </div>
+
+    </main>
+
+    <main class="box-publicidad">
+      <p>Publicidad</p>
+      <iframe class="container-anuncio" src="http://producciondigitalup.com/digital/104420/anuncio.html" frameborder="0" scrolling="no"></iframe>
+    </main>
+
+    <main id="nosotros">
+
+      <div class="container-nosotros">
+        <div class="nosotros">
+
+          <div class="title">
+            <h2>Sobre nosotros</h2>
+            <p>Conoce más sobre My Road y el propósito para el cual fue creado.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-nosotros-information">
+        <div class="information">
+
+          <div class="img">
+            <img src="img/Travel3.png" alt="">
+          </div>
+
+          <div class="text">
+            <h1>Te ayudamos a organizar el viaje de tus sueños</h1>
+            <p>My Road fue creado por y para personas que disfrutan de la aventura de viajar por carretera, ya sea todas las semanas o todos los meses. Para reunirte con un ser querido o simplemente porque quieres descubrir un sitio nuevo. Para viajar a Argentina, Viña del Mar o cualquier otra ciudad o país latinoamericano. No importa el tipo de viaje, siempre será sencillo y fácil con My Road.</p>          
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-nosotros-subtitle">
+        <div class="subtitle">
+          <h3>Opiniones de nuestros usuarios</h3>
+        </div>
+      </div>
+
+      <div class="container-swiper-review">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User1.png" alt="">
+                <div class="card-title">
+                  <h4>Grace Collier</h4>
+                  <h5>Argentina</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User2.png" alt="">
+                <div class="card-title">
+                  <h4>Rachel Reinger</h4>
+                  <h5>Chile</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User3.png" alt="">
+                <div class="card-title">
+                  <h4>Bernice Weber</h4>
+                  <h5>Uruguay</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User4.png" alt="">
+                <div class="card-title">
+                  <h4>Marion Beer</h4>
+                  <h5>Colombia</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User5.png" alt="">
+                <div class="card-title">
+                  <h4>Eduardo Conn</h4>
+                  <h5>Brasil</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User1.png" alt="">
+                <div class="card-title">
+                  <h4>Argentina</h4>
+                  <h5>Argentina</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User1.png" alt="">
+                <div class="card-title">
+                  <h4>Argentina</h4>
+                  <h5>Argentina</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-decription">
+                <div class="card-text">
+                  <p>User review. Lorem <br>ipsum dolor sit amet, <br>consectetur adipiscing <br>elit. Sit rhoncus <br>imperdiet nisi.</p>
+                </div>
+                <img src="img/User1.png" alt="">
+                <div class="card-title">
+                  <h4>Argentina</h4>
+                  <h5>Argentina</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+  
+        </div>
+      </div>
+
+    </main>
+
+    <main id="galeria" class="galeria">
+
+      <div class="container-nosotros">
+        <div class="nosotros">
+
+          <div class="title">
+            <h2>Galería</h2>
+            <p>Encuentra inspiración en alguna de las fotografías tomadas por nuestros usuarios durante sus viajes</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-galeria">
+
+          <a href="img/galeria/Argentina.jpg" data-lightbox="photo" title="Buenos Aires, Argentina" class="img"><img src="img/galeria/Argentina-min.png" class="img-min"></a>
+          <a href="img/galeria/Colombia.png" data-lightbox="photo" title="Cartagena, Colombia" class="img"><img src="img/galeria/Colombia-min.png" class="img-min"></a>
+          <a href="img/galeria/La-Serena.jpg" data-lightbox="photo" title="La Serena, Chile" class="img"><img src="img/galeria/La-Serena-min.png" class="img-min"></a>
+          <a href="img/galeria/Peru.jpg" data-lightbox="photo" title="Machu Picchu, Perú" class="img"><img src="img/galeria/Peru-min.png" class="img-min"></a>
+          <a href="img/galeria/Uruguay.jpg" data-lightbox="photo" title="Montevideo, Uruguay" class="img"><img src="img/galeria/Uruguay-min.png" class="img-min"></a>
+          <a href="img/galeria/Vina-del-Mar.jpg" data-lightbox="photo" title="Viña del Mar, Chile" class="img"><img src="img/galeria/Vina-del-Mar-min.png" class="img-min"></a>
+          <a href="img/galeria/Brasil.jpg" data-lightbox="photo" title="Sao Pablo, Brasil" class="img"><img src="img/galeria/Brasil-min.png" class="img-min"></a>
+          <a href="img/galeria/Puerto-Montt.jpg" data-lightbox="photo" title="Puerto Montt, Chile" class="img"><img src="img/galeria/Puerto-Montt-min.png" class="img-min"></a>
+
+      </div>
+
+
+      <script src="js/lightbox-plus-jquery.min.js"></script>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content-container">
+          <h3 class="logo">MyRoad</h3>
+          <span class="footer-info">Lorem Ipsum is simply dummy <br>text of the printing and <br>typesetting industry.</span>
+          <span class="footer-info"></span>
+        </div>
+        <div class="footer-menus">
+          <div class="footer-content-container">
+            <span class="menu-title">Contacto</span>
+            <a href="" class="menu-item-footer">myroad@email.com</a>
+            <a href="" class="menu-item-footer">636-981-4602</a>
+            <a href="" class="menu-item-footer">39898 Bayer Fork</a>
+          </div>
+          <div class="footer-content-container">
+            <span class="menu-title">Privacidad</span>
+            <a href="" class="menu-item-footer">Política de privacidad</a>
+            <a href="" class="menu-item-footer">Cookies</a>
+            <a href="" class="menu-item-footer">Terminos y condiciones</a>
+          </div>
+        </div>
+
+        <div class="footer-content-container">
+          <span class="menu-title">Siguenos</span>
+          <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li> 
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+         </ul>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <p class="copyright">copyright &copy;2022 MyRoad. diseñado por</p> <a class="name" href="presentacion.html"><span>Albany Carrero</span></a>
+      </div>
+    </footer>
+
+
+
+</body>
+</html>

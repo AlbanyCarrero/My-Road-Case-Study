@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Iniciar sesion</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+<body class="body-login">
+
+    <header class="header">
+        <nav class="nav">
+          <a href="index.html" class="logo nav-link">My Road |</a>
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a href="index.html#destinos" class="nav-menu-link nav-link">Destinos</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="index.html#planificacion" class="nav-menu-link nav-link">Planificación</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="index.html#nosotros" class="nav-menu-link nav-link">Sobre nosotros</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="index.html" class="nav-menu-link nav-link nav-menu-link_active"
+                >Home</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="formulario">
+
+        <div class="box">
+            <div class="inner-box">
+            <div class="forms-wrap">
+                <form action="index.html" autocomplete="off" class="sign-in-form">
+                    <div class="logo">
+                        <h4>My Road</h4>
+                    </div>
+
+                    <div class="heading">
+                        <h2>Bienvenido de vuelta</h2>
+                        <h6>¿Aún no tienes cuenta?</h6>
+                        <a href="#" class="toggle">Registrate</a>
+                    </div>
+
+                    <div class="actual-form">
+                        <div class="input-wrap">
+                            <input
+                                type="text"
+                                minlength="4"
+                                class="input-field"
+                                autocomplete="off"
+                                required
+                            />
+                            <label>Nombre de usuario</label>
+                        </div>
+
+                        <div class="input-wrap">
+                            <input
+                                type="password"
+                                minlength="4"
+                                class="input-field"
+                                autocomplete="off"
+                                required
+                            />
+                            <label>Contraseña</label>
+                        </div>
+
+                        <input type="submit" value="Iniciar sesión" class="sign-btn" />
+
+                        <p class="text">
+                        ¿Olvidaste tu contraseña?
+                        <a href="#" class="">Recuperala aquí</a>
+                        </p>
+                    </div>
+                </form>
+
+                <form action="index.html" autocomplete="off" class="sign-up-form">
+                <div class="logo">
+                    <h4>My Road</h4>
+                </div>
+
+                <div class="heading">
+                    <h2>Comencemos el viaje</h2>
+                    <h6>¿Ya tienes una cuenta?</h6>
+                    <a href="#" class="toggle">Inicia sesión</a>
+                </div>
+
+                <div class="actual-form">
+                    <div class="input-wrap">
+                    <input
+                        type="text"
+                        minlength="4"
+                        class="input-field"
+                        autocomplete="off"
+                        required
+                    />
+                    <label>Nombre de usuario</label>
+                    </div>
+
+                    <div class="input-wrap">
+                    <input
+                        type="email"
+                        class="input-field"
+                        autocomplete="off"
+                        required
+                    />
+                    <label>Correo electrónico</label>
+                    </div>
+
+                    <div class="input-wrap">
+                    <input
+                        type="password"
+                        minlength="4"
+                        class="input-field"
+                        autocomplete="off"
+                        required
+                    />
+                    <label>Contraseña</label>
+                    </div>
+
+                    <input type="submit" value="Crear cuenta" class="sign-btn" />
+
+                    <p class="text">
+                    Al registrarme, acepto los
+                    <a href="#">Terminos de servicio</a> y
+                    <a href="#">Politica de privacidad</a>
+                    </p>
+                </div>
+                </form>
+            </div>
+
+            <div class="carousel">
+                <div class="images-wrapper">
+                <img src="img/Email.png" class="image img-1 show" alt="" />
+                <img src="img/" class="image img-2" alt="" />
+                <img src="/img/" class="image img-3" alt="" />
+                </div>
+
+                <div class="text-slider">
+                <div class="text-wrap">
+                    <div class="text-group">
+                    <h2>Planifica el viaje de tus sueños</h2>
+                    <h2>Conoce lugares nuevos</h2>
+                    <h2>Comparte experiencias</h2>
+                    </div>
+                </div>
+
+                <div class="bullets">
+                    <span class="active" data-value="1"></span>
+                    <span data-value="2"></span>
+                    <span data-value="3"></span>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-content-container">
+            <h3 class="logo">MyRoad</h3>
+            <span class="footer-info">Lorem Ipsum is simply dummy <br>text of the printing and <br>typesetting industry.</span>
+            <span class="footer-info"></span>
+          </div>
+          <div class="footer-menus">
+            <div class="footer-content-container">
+              <span class="menu-title">Contacto</span>
+              <a href="" class="menu-item-footer">myroad@email.com</a>
+              <a href="" class="menu-item-footer">636-981-4602</a>
+              <a href="" class="menu-item-footer">39898 Bayer Fork</a>
+            </div>
+            <div class="footer-content-container">
+              <span class="menu-title">Privacidad</span>
+              <a href="" class="menu-item-footer">Política de privacidad</a>
+              <a href="" class="menu-item-footer">Cookies</a>
+              <a href="" class="menu-item-footer">Terminos y condiciones</a>
+            </div>
+          </div>
+  
+          <div class="footer-content-container">
+            <span class="menu-title">Siguenos</span>
+            <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li> 
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+           </ul>
+          </div>
+        </div>
+        <div class="copyright-container">
+          <p class="copyright">copyright &copy;2022 MyRoad. diseñado por <span>Albany Carrero</span></p>
+        </div>
+      </footer>
+
+</body>
